@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    width: 1280px ;
+    height: 720px;
+    background-color: #FAFAF9;
+    font-family: "Sora", sans-serif;
+}
+.card{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: white;
+    width: 368px;
+    top : 164px;
+    left: 50%;
+    height: auto;
+    transform: translate(-50%);
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    border-radius: 16px;
+}
+img{
+    width: 336px ;
+    height: 152px ;
+    margin: 16px;
+    border-radius: 16px;
+}
+.Design{
+    color: #883AE1 ;
+    background-color: #E6D6FC;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-top: 0;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 6px 16px ;
+    border-radius: 16px;
+}
+h3{
+    font-size: 18px;
+    margin: 0;
+    margin-left: 16px;
+}
+.From{
+    font-size: 14px;
+    color: #6C727F ;
+    margin-left: 16px ;
+    margin-right: 16px ;
+    margin-top: 6px ;
+    margin-bottom: 20px ;
+}
+.line{
+    border-top: 1px solid #E5EAF0;
+    width: 100%;
+}
+.Tag{
+    color: #6C727F;
+    margin: 0;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 10px;
+}
